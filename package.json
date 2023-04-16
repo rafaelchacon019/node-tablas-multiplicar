@@ -1,0 +1,19 @@
+{
+  "name": "bases-node",
+  "version": "0.0.2",
+  "description": "Es una simple tabla de multiplicar por consola",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base1": "node app.js --base=1"
+  },
+  "author": "Pastrukis",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
